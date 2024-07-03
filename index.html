@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-section">
+            <!-- <h2>Ingrese el texto aquí</h2> -->
+            <textarea type="text" class="inputText" id="inputText" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="buttons">
+                <button class="button-encrypt" onclick="updateText()"><span>Encriptar</span></button>
+                <button class="button-decrypt"><span>Desencriptar</span></button>
+            </div>
+        </div>
+        <div class="output-section">
+            <!-- <img src="https://via.placeholder.com/100" alt="Placeholder Image"> -->
+            <p id="outputText">Esperando mensaje</p>
+            <!-- <p>Ingresa el texto que desees encriptar o desencriptar.</p> -->
+        </div>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
